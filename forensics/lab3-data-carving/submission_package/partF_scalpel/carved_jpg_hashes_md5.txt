@@ -1,0 +1,17 @@
+1dcdc6e1ee62aba1a876b57337df9c74  partF_scalpel/output/jpg-1-0/00000014.jpg
+a6eb06fcd32714f387cea59f8720b0c1  partF_scalpel/output/jpg-1-0/00000011.jpg
+6ea7a6c2e3988a8147e58caee15dc9d6  partF_scalpel/output/jpg-1-0/00000008.jpg
+e56584e188ed1852d33963cbc88478d4  partF_scalpel/output/jpg-1-0/00000009.jpg
+160635e7a4dbc89384864bb5a9b6d952  partF_scalpel/output/jpg-1-0/00000013.jpg
+476bca75da4071d82cc636dfbad9cfc2  partF_scalpel/output/jpg-1-0/00000015.jpg
+41cb821d0e0657ed0d2fabe09d685dfc  partF_scalpel/output/jpg-1-0/00000010.jpg
+aec4abf7cb00ca5fcf54967d454a801d  partF_scalpel/output/jpg-1-0/00000012.jpg
+fd36a3452eeff212a0d64c824c2c18f9  partF_scalpel/output/jpg-1-0/00000016.jpg
+d143fe524b792d62b55ad6b7e12c1dfa  partF_scalpel/output/jpg-0-0/00000003.jpg
+280d788eb3d1d48b93e88374440b1cc9  partF_scalpel/output/jpg-0-0/00000000.jpg
+80d6a778d127d09b03f01dc0821b0907  partF_scalpel/output/jpg-0-0/00000007.jpg
+23aebb41d1f892897e275e13145fead0  partF_scalpel/output/jpg-0-0/00000006.jpg
+85f5990b4cc8910d16c9a80b04f919a4  partF_scalpel/output/jpg-0-0/00000004.jpg
+e553e2ec5b6d2c67829a0edbcc7609cd  partF_scalpel/output/jpg-0-0/00000001.jpg
+4a5d89f1d59cc27959925a6a93fb8ed8  partF_scalpel/output/jpg-0-0/00000002.jpg
+8d6c3778abdb79fd36e07a79bd6abcc1  partF_scalpel/output/jpg-0-0/00000005.jpg
