@@ -26,3 +26,26 @@ Result: empty - hidden message not visible as plaintext (Steghide encrypts paylo
 Conclusion: Steganography via LSB substitution preserves file size and header metadata,
 alters pixel-level data throughout the file, and hides an encrypted payload that is not
 detectable via plain string/text inspection.
+
+=== Part F: StegSeek Dictionary Attack ===
+Command: cat > wordlists/lab4_wordlist.txt (8 candidate passwords including "1234")
+
+Command: stegseek evidence/stego/tower_stego_lab4.bmp wordlists/lab4_wordlist.txt
+Result: Found passphrase "1234" in seconds. Original filename identified as "secret.txt".
+        Auto-extracted to tower_stego_lab4.bmp.out
+
+Command: mv tower_stego_lab4.bmp.out evidence/comparison/stegseek_cracked_secret.txt
+
+Command: diff evidence/secret/secret.txt evidence/comparison/stegseek_cracked_secret.txt
+Result: no output - files are identical
+
+Command: sha256sum evidence/comparison/stegseek_cracked_secret.txt
+Result: 1dffb2f6f050c1aef9eb88a2651744ef9644f1ee0fb2371f64f8a934f52add0d
+        (matches evidence/secret/secret_sha256.txt exactly)
+
+Conclusion: StegSeek exploits Steghide's embedded checksum to test passwords far faster
+than a full extract-and-check loop, making dictionary attacks against weak passwords
+extremely effective. A 4-character numeric password like "1234" offers essentially no
+real protection - the hiding technique (LSB substitution) was sound, but weak password
+choice completely undermined it. This demonstrates that steganography's security depends
+on both the concealment method AND a strong, unpredictable passphrase.
