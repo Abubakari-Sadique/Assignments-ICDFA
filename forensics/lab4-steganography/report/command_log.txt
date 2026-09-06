@@ -5,3 +5,24 @@ Part D: Extracted secret from stego image, verified against original.
 diff result: MATCH: no differences found
 secret.txt SHA256:            1dffb2f6f050c1aef9eb88a2651744ef9644f1ee0fb2371f64f8a934f52add0d
 extracted_secret.txt SHA256:  1dffb2f6f050c1aef9eb88a2651744ef9644f1ee0fb2371f64f8a934f52add0d
+
+=== Part E: Comparison (Original vs Stego) ===
+Command: ls -l evidence/original/tower_original_image_for_lab.bmp evidence/stego/tower_stego_lab4.bmp
+Result: identical size (9,277,494 bytes) - LSB substitution does not change file size
+
+Command: sha256sum evidence/original/tower_original_image_for_lab.bmp evidence/stego/tower_stego_lab4.bmp
+Result: hashes differ - confirms pixel data was modified
+
+Command: xxd -l 64 evidence/original/tower_original_image_for_lab.bmp
+         xxd -l 64 evidence/stego/tower_stego_lab4.bmp
+Result: identical header bytes - BMP header/metadata untouched, only pixel data changed
+
+Command: diff <(strings evidence/original/tower_original_image_for_lab.bmp) <(strings evidence/stego/tower_stego_lab4.bmp) | wc -l
+Result: 2428 differing lines - confirms widespread byte-level changes
+
+Command: strings evidence/stego/tower_stego_lab4.bmp | grep -i "Abubakari"
+Result: empty - hidden message not visible as plaintext (Steghide encrypts payload before embedding)
+
+Conclusion: Steganography via LSB substitution preserves file size and header metadata,
+alters pixel-level data throughout the file, and hides an encrypted payload that is not
+detectable via plain string/text inspection.
