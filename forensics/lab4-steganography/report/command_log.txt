@@ -49,3 +49,19 @@ extremely effective. A 4-character numeric password like "1234" offers essential
 real protection - the hiding technique (LSB substitution) was sound, but weak password
 choice completely undermined it. This demonstrates that steganography's security depends
 on both the concealment method AND a strong, unpredictable passphrase.
+
+=== Part G: Independent Repeat (Own Note, Password, Wordlist) ===
+Command: cat > evidence/secret/my_hidden_note.txt (own note explaining steganography and its forensic relevance)
+Command: sha256sum evidence/secret/my_hidden_note.txt
+Result: 8d5a5066246946a94eec3adb221f6269d07606686fc7ea2a9a1f980c9c56f1b3
+
+Command: steghide embed -ef evidence/secret/my_hidden_note.txt -cf evidence/original/tower_original_image_for_lab.bmp -sf evidence/stego/tower_stego_partG.bmp -p 1234
+Result: embedded successfully
+
+Command: sha256sum evidence/stego/tower_stego_partG.bmp
+Result: 934c92b9a2a338eb3ef7630cab63f351c839c16f8b9cf2c2d1511c6124c8f8b5
+
+Command: steghide extract -sf evidence/stego/tower_stego_partG.bmp -xf evidence/extracted/extracted_partG.txt -p 1234
+Command: diff evidence/secret/my_hidden_note.txt evidence/extracted/extracted_partG.txt
+Result: no output - identical
+Command: sha256sum

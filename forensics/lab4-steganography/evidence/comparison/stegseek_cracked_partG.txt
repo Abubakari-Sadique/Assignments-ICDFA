@@ -1,0 +1,8 @@
+Full Name: Abubakari-Sadique Hamidu
+Part G Independent Note: This file was created independently for ICDFA Lab 4, Part G,
+to demonstrate the steganography and password-cracking workflow without following a
+provided script. Steganography hides the existence of a message inside another file,
+unlike encryption, which hides only its content. In digital forensics, investigators
+must know how to detect steganography because it can be used to smuggle stolen data or
+malicious payloads inside innocent-looking images, and how to test password strength,
+because a weak passphrase can be cracked in seconds with tools like StegSeek.
