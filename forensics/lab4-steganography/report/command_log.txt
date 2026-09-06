@@ -1,2 +1,3 @@
 Part A: Downloaded carrier image, verified BMP format, hashed original. SHA256=6508bebb94bd8ec0833b9f85580cda4261d89632ddc89e7f9f7093b5e653c4db
 Part B: Created secret.txt with name/message/confirmation, hashed it.
+Part C: Embedded secret.txt into tower_stego_lab4.bmp via steghide (password 1234). Stego SHA256=27e666b061e2216723d8ebb74006fd2df8f0d1b41d5eaf01ad28903ef1e2f31f

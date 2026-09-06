@@ -1,0 +1,1 @@
+27e666b061e2216723d8ebb74006fd2df8f0d1b41d5eaf01ad28903ef1e2f31f  evidence/stego/tower_stego_lab4.bmp
