@@ -1,0 +1,2 @@
+178becdc50c33f93ac02eca9f45825d975de1eaeb267ad3b2d0ff7f85454968d  /var/www/html/image.html
+0eaa429c2479a99f839549c87027f90db2e78bfe2dd1117c093903b177ea45b7  /var/www/html/lab_photo.png
