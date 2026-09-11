@@ -1,0 +1,33 @@
+LAB 2 - REQUIRED FORENSIC FINDINGS
+=====================================
+Total packets captured (image_traffic.pcapng): 21
+HTTP requests made by browser: 2 (HTML + image)
+  Request 1: Frame 4 - GET /image.html - 10:28:51.100088
+  Request 2: Frame 8 - GET /lab_photo.png - 10:28:51.191913
+HTTP responses:
+  Response 1: Frame 6 - 200 OK - text/html - 163 bytes - 10:28:51.105609
+  Response 2: Frame 11 - 200 OK - image/png - 151792 bytes (Content-Length) - 10:28:51.199351
+TCP segments reassembled to build the image: 3
+Total reassembled TCP payload bytes: 152081
+
+Source file hash - image.html:
+  178becdc50c33f93ac02eca9f45825d975de1eaeb267ad3b2d0ff7f85454968d
+Source file hash - lab_photo.png:
+  0eaa429c2479a99f839549c87027f90db2e78bfe2dd1117c093903b177ea45b7
+Extracted (exported) hash - image.html:
+  178becdc50c33f93ac02eca9f45825d975de1eaeb267ad3b2d0ff7f85454968d
+Extracted (exported) hash - lab_photo.png:
+  0eaa429c2479a99f839549c87027f90db2e78bfe2dd1117c093903b177ea45b7
+Hash comparison result: EXACT MATCH - extracted objects are byte-identical to originals
+
+Original capture file hash (SHA-256):
+  b5616b94840cf82c7861d41b6182d9e7bbec89f9458ca362fe5ec6b5e667f757
+Working copy hash (SHA-256):
+  b5616b94840cf82c7861d41b6182d9e7bbec89f9458ca362fe5ec6b5e667f757 (matches original)
+
+TCP conversation: 192.168.65.1:49426 <-> 172.17.0.2:80 - 21 frames, 285 kB, 5.308s duration
+
+Curl-only capture packet count: 10
+Curl HTTP requests made: 1 (GET /image.html only)
+Curl vs browser conclusion: Browser automatically fetched both HTML and image;
+  curl fetched only what it was explicitly told to request.
