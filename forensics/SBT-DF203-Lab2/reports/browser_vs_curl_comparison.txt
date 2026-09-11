@@ -1,0 +1,13 @@
+Browser capture (image_traffic.pcapng):
+  Frame 4: GET /image.html
+  Frame 8: GET /lab_photo.png
+  Total objects requested: 2 (HTML + image)
+
+Curl capture (curl_only.pcapng):
+  Frame 4: GET /image.html
+  Total objects requested: 1 (HTML only)
+
+Conclusion:
+  The browser parsed the HTML and automatically fetched the <img> tag's source (lab_photo.png).
+  Curl does not parse HTML content - it only performs the single request it was explicitly told to make.
+  This confirms curl does not replicate real browser behavior for embedded resources.
