@@ -1,0 +1,117 @@
+18:37:24.107583 http.c:701              == Info: Couldn't find host github.com in the .netrc file; using defaults
+18:37:24.110233 http.c:701              == Info: Host github.com:443 was resolved.
+18:37:24.110250 http.c:701              == Info: IPv6: (none)
+18:37:24.110255 http.c:701              == Info: IPv4: 140.82.121.4
+18:37:24.110324 http.c:701              == Info:   Trying 140.82.121.4:443...
+18:37:24.272402 http.c:701              == Info: Connected to github.com (140.82.121.4) port 443
+18:37:24.272525 http.c:701              == Info: ALPN: curl offers http/1.1
+18:37:24.272971 http.c:701              == Info: (304) (OUT), TLS handshake, Client hello (1):
+18:37:24.288976 http.c:701              == Info:  CAfile: /etc/ssl/cert.pem
+18:37:24.288993 http.c:701              == Info:  CApath: none
+18:37:24.466514 http.c:701              == Info: (304) (IN), TLS handshake, Server hello (2):
+18:37:24.466947 http.c:701              == Info: (304) (IN), TLS handshake, Unknown (8):
+18:37:24.468550 http.c:701              == Info: (304) (IN), TLS handshake, Certificate (11):
+18:37:24.473413 http.c:701              == Info: (304) (IN), TLS handshake, CERT verify (15):
+18:37:24.474013 http.c:701              == Info: (304) (IN), TLS handshake, Finished (20):
+18:37:24.474144 http.c:701              == Info: (304) (OUT), TLS handshake, Finished (20):
+18:37:24.474175 http.c:701              == Info: SSL connection using TLSv1.3 / AEAD-AES128-GCM-SHA256 / [blank] / UNDEF
+18:37:24.474182 http.c:701              == Info: ALPN: server accepted http/1.1
+18:37:24.474190 http.c:701              == Info: Server certificate:
+18:37:24.474200 http.c:701              == Info:  subject: CN=github.com
+18:37:24.474211 http.c:701              == Info:  start date: Sep  1 00:00:00 2026 GMT
+18:37:24.474217 http.c:701              == Info:  expire date: Nov 29 23:59:59 2026 GMT
+18:37:24.474230 http.c:701              == Info:  subjectAltName: host "github.com" matched cert's "github.com"
+18:37:24.474282 http.c:701              == Info:  issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA DV E36
+18:37:24.474295 http.c:701              == Info:  SSL certificate verify ok.
+18:37:24.474306 http.c:701              == Info: using HTTP/1.x
+18:37:24.475430 http.c:648              => Send header, 0000000213 bytes (0x000000d5)
+18:37:24.475446 http.c:660              => Send header: GET /Abubakari-Sadique/Assignments-ICDFA.git/info/refs?service=git-receive-pack HTTP/1.1
+18:37:24.475451 http.c:660              => Send header: Host: github.com
+18:37:24.475455 http.c:660              => Send header: User-Agent: git/2.39.2 (Apple Git-143)
+18:37:24.475458 http.c:660              => Send header: Accept: */*
+18:37:24.475462 http.c:660              => Send header: Accept-Encoding: deflate, gzip
+18:37:24.475466 http.c:660              => Send header: Pragma: no-cache
+18:37:24.475471 http.c:660              => Send header:
+18:37:24.475487 http.c:701              == Info: Request completely sent off
+18:37:24.774723 http.c:648              <= Recv header, 0000000027 bytes (0x0000001b)
+18:37:24.774754 http.c:660              <= Recv header: HTTP/1.1 401 Unauthorized
+18:37:24.774770 http.c:648              <= Recv header, 0000000026 bytes (0x0000001a)
+18:37:24.774779 http.c:660              <= Recv header: Server: GitHub-Babel/3.0
+18:37:24.774791 http.c:648              <= Recv header, 0000000054 bytes (0x00000036)
+18:37:24.774811 http.c:660              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+18:37:24.774823 http.c:648              <= Recv header, 0000000041 bytes (0x00000029)
+18:37:24.774832 http.c:660              <= Recv header: Content-Type: text/plain; charset=UTF-8
+18:37:24.774842 http.c:648              <= Recv header, 0000000045 bytes (0x0000002d)
+18:37:24.774848 http.c:660              <= Recv header: Strict-Transport-Security: max-age=31536000
+18:37:24.774859 http.c:648              <= Recv header, 0000000040 bytes (0x00000028)
+18:37:24.774866 http.c:660              <= Recv header: www-authenticate: Basic realm="GitHub"
+18:37:24.774877 http.c:648              <= Recv header, 0000000020 bytes (0x00000014)
+18:37:24.774884 http.c:660              <= Recv header: Content-Length: 26
+18:37:24.774894 http.c:648              <= Recv header, 0000000037 bytes (0x00000025)
+18:37:24.774901 http.c:660              <= Recv header: Date: Sat, 05 Sep 2026 18:37:24 GMT
+18:37:24.774910 http.c:648              <= Recv header, 0000000023 bytes (0x00000017)
+18:37:24.774916 http.c:660              <= Recv header: X-Frame-Options: DENY
+18:37:24.774925 http.c:648              <= Recv header, 0000000057 bytes (0x00000039)
+18:37:24.774932 http.c:660              <= Recv header: X-GitHub-Request-Id: 576E:1779:1653087:12F8C8A:6A9C6164
+18:37:24.774941 http.c:648              <= Recv header, 0000000027 bytes (0x0000001b)
+18:37:24.774947 http.c:660              <= Recv header: x-github-edge-region: fra
+18:37:24.774956 http.c:648              <= Recv header, 0000000002 bytes (0x00000002)
+18:37:24.774962 http.c:660              <= Recv header:
+18:37:24.774994 http.c:701              == Info: Connection #0 to host github.com left intact
+18:37:24.850374 http.c:701              == Info: Found bundle for host: 0x600000dd94a0 [serially]
+18:37:24.850423 http.c:701              == Info: Re-using existing connection with host github.com
+18:37:24.850447 http.c:701              == Info: Server auth using Basic with user 'Abubakari-Sadique'
+18:37:24.850661 http.c:648              => Send header, 0000000316 bytes (0x0000013c)
+18:37:24.850714 http.c:660              => Send header: GET /Abubakari-Sadique/Assignments-ICDFA.git/info/refs?service=git-receive-pack HTTP/1.1
+18:37:24.850730 http.c:660              => Send header: Host: github.com
+18:37:24.850755 http.c:660              => Send header: Authorization: Basic <redacted>
+18:37:24.850764 http.c:660              => Send header: User-Agent: git/2.39.2 (Apple Git-143)
+18:37:24.850770 http.c:660              => Send header: Accept: */*
+18:37:24.850777 http.c:660              => Send header: Accept-Encoding: deflate, gzip
+18:37:24.850784 http.c:660              => Send header: Pragma: no-cache
+18:37:24.850792 http.c:660              => Send header:
+18:37:24.850816 http.c:701              == Info: Request completely sent off
+18:37:25.380597 http.c:648              <= Recv header, 0000000017 bytes (0x00000011)
+18:37:25.380619 http.c:660              <= Recv header: HTTP/1.1 200 OK
+18:37:25.380632 http.c:648              <= Recv header, 0000000026 bytes (0x0000001a)
+18:37:25.380638 http.c:660              <= Recv header: Server: GitHub-Babel/3.0
+18:37:25.380647 http.c:648              <= Recv header, 0000000060 bytes (0x0000003c)
+18:37:25.380654 http.c:660              <= Recv header: Content-Type: application/x-git-receive-pack-advertisement
+18:37:25.380667 http.c:648              <= Recv header, 0000000054 bytes (0x00000036)
+18:37:25.380673 http.c:660              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+18:37:25.380680 http.c:648              <= Recv header, 0000000040 bytes (0x00000028)
+18:37:25.380687 http.c:660              <= Recv header: expires: Fri, 01 Jan 1980 00:00:00 GMT
+18:37:25.380694 http.c:648              <= Recv header, 0000000018 bytes (0x00000012)
+18:37:25.380700 http.c:660              <= Recv header: pragma: no-cache
+18:37:25.380708 http.c:648              <= Recv header, 0000000053 bytes (0x00000035)
+18:37:25.380713 http.c:660              <= Recv header: Cache-Control: no-cache, max-age=0, must-revalidate
+18:37:25.380721 http.c:648              <= Recv header, 0000000023 bytes (0x00000017)
+18:37:25.380727 http.c:660              <= Recv header: Vary: Accept-Encoding
+18:37:25.380734 http.c:648              <= Recv header, 0000000045 bytes (0x0000002d)
+18:37:25.380740 http.c:660              <= Recv header: Strict-Transport-Security: max-age=31536000
+18:37:25.380749 http.c:648              <= Recv header, 0000000028 bytes (0x0000001c)
+18:37:25.380754 http.c:660              <= Recv header: Transfer-Encoding: chunked
+18:37:25.380762 http.c:648              <= Recv header, 0000000037 bytes (0x00000025)
+18:37:25.380767 http.c:660              <= Recv header: Date: Sat, 05 Sep 2026 18:37:25 GMT
+18:37:25.380774 http.c:648              <= Recv header, 0000000023 bytes (0x00000017)
+18:37:25.380779 http.c:660              <= Recv header: X-Frame-Options: DENY
+18:37:25.380787 http.c:648              <= Recv header, 0000000057 bytes (0x00000039)
+18:37:25.380793 http.c:660              <= Recv header: X-GitHub-Request-Id: 576E:1779:1653448:12F8FA5:6A9C6164
+18:37:25.380799 http.c:648              <= Recv header, 0000000027 bytes (0x0000001b)
+18:37:25.380805 http.c:660              <= Recv header: x-github-edge-region: fra
+18:37:25.380812 http.c:648              <= Recv header, 0000000002 bytes (0x00000002)
+18:37:25.380818 http.c:660              <= Recv header:
+18:37:25.380850 http.c:701              == Info: Connection #0 to host github.com left intact
+18:37:40.627015 http.c:701              == Info: Found bundle for host: 0x600000dd94a0 [serially]
+18:37:40.627052 http.c:701              == Info: Re-using existing connection with host github.com
+18:37:40.627080 http.c:701              == Info: Server auth using Basic with user 'Abubakari-Sadique'
+18:37:40.627522 http.c:648              => Send header, 0000000395 bytes (0x0000018b)
+18:37:40.627550 http.c:660              => Send header: POST /Abubakari-Sadique/Assignments-ICDFA.git/git-receive-pack HTTP/1.1
+18:37:40.627563 http.c:660              => Send header: Host: github.com
+18:37:40.627567 http.c:660              => Send header: Authorization: Basic <redacted>
+18:37:40.627570 http.c:660              => Send header: User-Agent: git/2.39.2 (Apple Git-143)
+18:37:40.627574 http.c:660              => Send header: Accept-Encoding: deflate, gzip
+18:37:40.627577 http.c:660              => Send header: Content-Type: application/x-git-receive-pack-request
+18:37:40.627580 http.c:660              => Send header: Accept: application/x-git-receive-pack-result
+18:37:40.627610 http.c:660              => Send header: Content-Length: 95140151
+18:37:40.627614 http.c:660              => Send header:
