@@ -1,21 +1,19 @@
-# SBT-DF203 Lab 3: SYN Flood Investigation Using TShark
+ SBT-DF203 Lab 3: SYN Flood Investigation Using TShark
 
-## 📌 Executive Summary
 This repository contains the forensic evidence, analysis scripts, packet capture (`.pcapng`) files, TSV field extractions, and terminal documentation for **SBT-DF203 Lab 3**. 
 
 The investigation evaluates the differences between normal, full 3-way TCP HTTP handshakes and a bounded SYN Flood attack pattern (half-open connection attempts) executed via a Scapy probe script on a Linux loopback interface (`lo`).
 
 
-## 👨‍💻 Student Information
+👨‍💻 Student Information
 Name: Abubakari Sadique Hamidu
 Student ID / Reg No: 2025-FWSD-11392
 Course:** SBT-DF203 Digital Forensics & Network Analysis
 Repository: `Assignments-ICDFA/forensics/SBT-DF203-Lab3`
 
 
-## 📂 Repository Structure
+ 📂 Repository Structure
 
-```text
 SBT-DF203-Lab3/
 ├── README.md                                 # Laboratory Overview and Execution Summary
 ├── evidence/
