@@ -1,0 +1,39 @@
+# SBT-DF203 Lab 3: SYN Flood Investigation Using TShark
+
+## 📌 Executive Summary
+This repository contains the forensic evidence, analysis scripts, packet capture (`.pcapng`) files, TSV field extractions, and terminal documentation for **SBT-DF203 Lab 3**. 
+
+The investigation evaluates the differences between normal, full 3-way TCP HTTP handshakes and a bounded SYN Flood attack pattern (half-open connection attempts) executed via a Scapy probe script on a Linux loopback interface (`lo`).
+
+
+## 👨‍💻 Student Information
+Name: Abubakari Sadique Hamidu
+Student ID / Reg No: 2025-FWSD-11392
+Course:** SBT-DF203 Digital Forensics & Network Analysis
+Repository: `Assignments-ICDFA/forensics/SBT-DF203-Lab3`
+
+
+## 📂 Repository Structure
+
+```text
+SBT-DF203-Lab3/
+├── README.md                                 # Laboratory Overview and Execution Summary
+├── evidence/
+│   ├── normal_http.pcapng                    # Baseline 3-way HTTP TCP handshake capture
+│   └── bounded_syn_activity.pcapng           # Original Scapy SYN probe packet capture
+├── working/
+│   └── bounded_syn_activity_working.pcapng   # Working forensic copy (hash verified)
+├── scripts/
+│   └── syn_probe_lab.py                      # Scapy Python script for bounded SYN generation
+├── reports/
+│   ├── SBTDF203-Lab2_SYN Flood investigation using Tshark_2025-FWSD-11392_Abubakari_Sadique_Hamidu.pdf # Final Written Report
+│   ├── normal_handshake_flags.tsv            # Baseline TCP flag extractions
+│   ├── initial_syns.tsv                      # SYN=1, ACK=0 field extractions
+│   ├── syn_ack_responses.tsv                 # SYN=1, ACK=1 server response extractions
+│   ├── ack_reset_candidates.tsv              # Connection RST / ACK extractions
+│   ├── syn_counts_by_pair.txt                # Aggregated target IP/port traffic counts
+│   ├── unique_syn_source_ports.txt           # Extracted randomized client source ports
+│   ├── expert_info.txt                       # TShark expert analysis summary
+│   ├── bounded_capture_hashes.txt            # Working copy integrity hash verification
+│   └── all_pcap_hashes.txt                   # SHA-256 integrity hashes for all PCAP files
+└── screenshots/                              # Terminal execution evidence (14 Checkpoints)
