@@ -14,8 +14,9 @@ Repository: Assignments-ICDFA/forensics/SBT-DF203-Lab4
 
 
 
- 📂 Repository Structure
+## 📂 Repository Structure
 
+```text
 SBT-DF203-Lab4/
 ├── README.md                                 # Laboratory Overview and Forensic Findings
 ├── evidence/
@@ -34,4 +35,4 @@ SBT-DF203-Lab4/
 │   ├── smtp_network_metadata.tsv             # Ethernet MACs, IP addresses, and TCP ports
 │   ├── client_indicators.tsv                 # User-Agent / X-Mailer packet lines
 │   └── tls_assessment.txt                    # STARTTLS capability evaluation
-└── screenshots/
+└── screenshots/                              # 14 Terminal execution evidence checkpoints
