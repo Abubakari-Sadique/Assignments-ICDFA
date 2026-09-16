@@ -9,10 +9,10 @@ The investigation evaluates a historical SMTP packet capture (`smtp.pcap`) to re
 ---
 
 ## 👨‍💻 Student Information
-* **Name:** Abubakari Sadique Hamidu
-* **Student ID / Reg No:** 2025-FWSD-11392
-* **Course:** SBT-DF203 Basic Networking Skills for Digital Forensics
-* **Repository:** `Assignments-ICDFA/forensics/SBT-DF203-Lab4`
+* Name: Abubakari Sadique Hamidu
+* Student ID / Reg No:** 2025-FWSD-11392
+* Course: SBT-DF203 Basic Networking Skills for Digital Forensics
+* Repository: `Assignments-ICDFA/forensics/SBT-DF203-Lab4`
 
 
 
