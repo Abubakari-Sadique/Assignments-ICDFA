@@ -1,14 +1,14 @@
 ```markdown
-# SBT-DF203 Lab 4: SMTP Email Traffic Forensics
+SBT-DF203 Lab 4: SMTP Email Traffic Forensics
 
-## 📌 Executive Summary
+Executive Summary
 This repository contains the forensic analysis, reconstructed message streams, TSV extractions, offline Base64 credential decoding evidence, and terminal documentation for **SBT-DF203 Lab 4**. 
 
 The investigation evaluates a historical SMTP packet capture (`smtp.pcap`) to reconstruct the complete email exchange sequence, identify client/server network endpoints, decode application layer authentication fields offline, and assess transport security (TLS/STARTTLS capabilities).
 
----
 
-## 👨‍💻 Student Information
+
+ Student Information
 * Name: Abubakari Sadique Hamidu
 * Student ID / Reg No:** 2025-FWSD-11392
 * Course: SBT-DF203 Basic Networking Skills for Digital Forensics
@@ -16,7 +16,7 @@ The investigation evaluates a historical SMTP packet capture (`smtp.pcap`) to re
 
 
 
-## 📂 Repository Structure
+Repository Structure
 
 ```text
 SBT-DF203-Lab4/
