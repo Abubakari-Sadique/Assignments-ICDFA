@@ -1,4 +1,3 @@
-
 SBT-DF203 Lab 4: SMTP Email Traffic Forensics
 
 Executive Summary
