@@ -1,0 +1,26 @@
+*   Trying 127.0.0.1:80...
+* Established connection to 127.0.0.1 (127.0.0.1 port 80) from 127.0.0.1 port 33444 
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0* using HTTP/1.x
+> GET /firewall_lab.html HTTP/1.1
+> Host: 127.0.0.1
+> User-Agent: curl/8.21.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 200 OK
+< Date: Fri, 18 Sep 2026 04:31:52 GMT
+< Server: Apache/2.4.68 (Debian)
+< Last-Modified: Fri, 18 Sep 2026 02:25:15 GMT
+< ETag: "73-65bb89c5b81b0"
+< Accept-Ranges: bytes
+< Content-Length: 115
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< 
+{ [115 bytes data]
+100    115 100    115   0      0    623      0                              0100    115 100    115   0      0    623      0                              0100    115 100    115   0      0    622      0                              0
+* Connection #0 to host 127.0.0.1:80 left intact
+<!DOCTYPE html>
+<html><body><h1>ICDFA Network Forensics Firewall Lab</h1><p>Server: sbtdf203-lab</p></body></html>

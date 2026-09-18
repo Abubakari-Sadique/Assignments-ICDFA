@@ -1,0 +1,4 @@
+*   Trying 127.0.0.1:80...
+* Connection timed out after 5003 milliseconds
+* closing connection #0
+curl: (28) Connection timed out after 5003 milliseconds
