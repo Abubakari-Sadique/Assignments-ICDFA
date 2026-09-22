@@ -1,0 +1,15 @@
+
+; <<>> DiG 9.20.27-2-Debian <<>> example.com AAAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58249
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;example.com.			IN	AAAA
+
+;; Query time: 3 msec
+;; SERVER: 192.168.65.7#53(192.168.65.7) (UDP)
+;; WHEN: Tue Sep 22 07:14:52 UTC 2026
+;; MSG SIZE  rcvd: 29
+
