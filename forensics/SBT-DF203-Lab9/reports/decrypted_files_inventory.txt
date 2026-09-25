@@ -1,0 +1,3 @@
+   209028  12540 -rw-r--r--   1 root     root     12837660 Sep 26  2026 working/file_working.xz
+   209030  13904 -rw-r--r--   1 root     root     14234002 Sep 26  2026 working/file_working
+   209051  12488 -rw-r--r--   1 root     root     12784501 Sep 25 05:26 working/file_working-dec

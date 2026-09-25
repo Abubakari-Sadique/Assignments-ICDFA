@@ -1,0 +1,60 @@
+================================================================================
+IPv4 Endpoints
+Filter:<No Filter>
+                       | Packets | |  Bytes  | | Tx Packets | | Tx Bytes | | Rx Packets | | Rx Bytes |
+192.168.0.15                15309   12 MB            6995      608 kB            8314      11 MB       
+198.90.20.111                8057   6916 kB          4446      6637 kB           3611      279 kB      
+199.27.79.193                5694   4825 kB          3131      4603 kB           2563      221 kB      
+192.168.0.9                   329   277 kB            197      265 kB             132      11 kB       
+173.194.127.141               153   109 kB             80      102 kB              73      7364 bytes  
+173.194.127.55                143   89 kB              71      82 kB               72      6990 bytes  
+8.8.8.8                        81   10 kB              40      6960 bytes          41      3391 bytes  
+199.16.158.186                 66   15 kB              29      10 kB               37      5214 bytes  
+173.194.127.227                66   24 kB              26      15 kB               40      8455 bytes  
+173.194.127.229                55   22 kB              23      13 kB               32      9731 bytes  
+31.13.70.1                     51   19 kB              26      15 kB               25      3151 bytes  
+173.241.248.220                44   6848 bytes         20      3122 bytes          24      3726 bytes  
+198.41.208.140                 44   28 kB              21      25 kB               23      2718 bytes  
+224.0.0.251                    42   6648 bytes          0      0 bytes             42      6648 bytes  
+173.194.127.237                36   9526 bytes         14      6435 bytes          22      3091 bytes  
+216.58.220.234                 34   15 kB              16      12 kB               18      2497 bytes  
+192.168.0.1                    33   12 kB              33      12 kB                0      0 bytes     
+173.241.248.219                33   5733 bytes         14      2807 bytes          19      2926 bytes  
+104.74.158.12                  33   21 kB              18      20 kB               15      1236 bytes  
+74.125.203.156                 32   20 kB              16      17 kB               16      2534 bytes  
+239.255.255.250                31   11 kB               0      0 bytes             31      11 kB       
+173.194.127.231                31   6816 bytes         12      5197 bytes          19      1619 bytes  
+198.41.209.137                 28   16 kB              13      14 kB               15      1556 bytes  
+17.172.239.31                  25   6504 bytes         12      3973 bytes          13      2531 bytes  
+173.194.72.95                  23   4077 bytes          9      2232 bytes          14      1845 bytes  
+173.194.127.122                21   12 kB              11      11 kB               10      1759 bytes  
+69.59.169.185                  18   5644 bytes          7      3675 bytes          11      1969 bytes  
+72.246.103.16                  16   3697 bytes          6      1732 bytes          10      1965 bytes  
+23.23.127.192                  15   3383 bytes          6      1370 bytes           9      2013 bytes  
+173.194.127.198                14   4480 bytes          6      2931 bytes           8      1549 bytes  
+173.194.122.24                 14   1724 bytes          5      688 bytes            9      1036 bytes  
+23.21.133.99                   13   2314 bytes          5      880 bytes            8      1434 bytes  
+50.31.251.34                   12   3483 bytes          6      2777 bytes           6      706 bytes   
+108.168.254.139                11   2655 bytes          5      1690 bytes           6      965 bytes   
+108.168.254.138                11   2333 bytes          5      1124 bytes           6      1209 bytes  
+54.240.248.207                 10   1217 bytes          4      441 bytes            6      776 bytes   
+173.194.127.100                10   1921 bytes          4      715 bytes            6      1206 bytes  
+54.169.42.244                  10   2054 bytes          4      1054 bytes           6      1000 bytes  
+173.194.127.119                10   1534 bytes          4      670 bytes            6      864 bytes   
+173.194.127.128                 9   1468 bytes          3      604 bytes            6      864 bytes   
+23.21.196.154                   8   975 bytes           2      140 bytes            6      835 bytes   
+203.190.124.19                  8   1742 bytes          3      648 bytes            5      1094 bytes  
+255.255.255.255                 6   2300 bytes          0      0 bytes              6      2300 bytes  
+0.0.0.0                         5   1710 bytes          5      1710 bytes           0      0 bytes     
+173.194.127.173                 4   240 bytes           2      132 bytes            2      108 bytes   
+17.172.239.127                  3   206 bytes           1      74 bytes             2      132 bytes   
+173.194.122.15                  3   206 bytes           1      74 bytes             2      132 bytes   
+108.168.254.140                 3   198 bytes           1      66 bytes             2      132 bytes   
+173.194.127.226                 3   206 bytes           1      74 bytes             2      132 bytes   
+224.0.0.22                      3   180 bytes           0      0 bytes              3      180 bytes   
+224.0.0.2                       2   92 bytes            0      0 bytes              2      92 bytes    
+17.172.232.98                   2   157 bytes           1      103 bytes            1      54 bytes    
+54.251.179.109                  2   132 bytes           0      0 bytes              2      132 bytes   
+173.194.122.23                  2   132 bytes           0      0 bytes              2      132 bytes   
+10.0.0.1                        1   60 bytes            1      60 bytes             0      0 bytes     
+================================================================================
