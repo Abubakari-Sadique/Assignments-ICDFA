@@ -2,7 +2,7 @@
 
 * **Student:** Abubakari-Sadique Hamidu (2025-FWSD-11392)
 * **Course:** SBT-DF203 — Basic Networking Skills for Digital Forensics
-* **Date:** 26 September 2026
+* **Date:** 25th September 2026
 
 ## Overview
 Offline analysis and evidence repository for Lab 9 covering 802.11 frame dissection, WEP40 key recovery, decryption, and object carving from the CodeGate CTF dataset.
