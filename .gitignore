@@ -1,2 +1,3 @@
 *.dd
 .DS_Store
+forensics/SBT-DF204-Lab1/evidence/*.pcap
