@@ -40,19 +40,3 @@ Forensic integrity was maintained by working on a duplicate copy while preservin
 - **File Size:** 33,844 bytes
 - **Timestamp (UTC):** `2022-04-19 14:56:58`
 
-## Directory Structure
-SBT-DF204-Lab2/
-├── README.md
-├── SBTDF204_CaseStudy2_Report.md
-├── evidence/
-│   ├── History
-│   └── History_working_copy.db
-└── screenshots/
-├── Communications_Payments_Downloads.png
-├── Posting_Advertisements.png
-├── database schema1.png
-├── database schema2.png
-├── docker.png
-├── evidence intergrity.png
-├── lab folder setup.png
-└── utc timeline query.png
