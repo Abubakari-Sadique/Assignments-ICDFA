@@ -1,7 +1,6 @@
 # Memory Forensics Investigation Report: SBT-DF204 Case Study 3
 
 Analyst: Abubakari-Sadique Hamidu
-
 Case ID: SBT-DF204-Lab3
 OS Profile: Windows 7 Service Pack 1 (x86)
 Evidence Image: memdumpWin7.zip
