@@ -1,0 +1,2 @@
+Timestamp,Examiner,Activity,Source_Path,Destination_Path,Hash_SHA256,Status
+2026-11-10 06:10:00,Abubakari-Sadique Hamidu,Evidence Acquisition & Integrity Check,/Android_Logical.zip,/extracted_evidence/Android_Logical,9a352b282d832556eb7cb73010ea281f9946d889438ce07d9bbee3b64229285d,Completed

@@ -1,0 +1,6 @@
+Item_ID,Evidence_Name,Original_Path,Source_Type,SHA256_Hash,Notes
+EV-01,Android Logical Image,/Android_Logical.zip,Logical Archive,9a352b282d832556eb7cb73010ea281f9946d889438ce07d9bbee3b64229285d,Primary container holding DJI flight records and application databases.
+EV-02,DJI Flight Recording 1,sdcard/DJI/dji.pilot/DJI_RECORD/2017_10_10_10_02_47.mp4,Video Artifact,N/A (Contained in EV-01),Flight video artifact from DJI Pilot.
+EV-03,DJI Flight Recording 2,sdcard/DJI/dji.go.v4/DJI_RECORD/2018_06_19_14_50_39.mp4,Video Artifact,N/A (Contained in EV-01),Flight video artifact from DJI GO 4.
+EV-04,DJI Pilot Flight Telemetry Log,sdcard/DJI/dji.pilot/FlightRecord/DJIFlightRecord_2017-10-10_[10-02-22].txt,Binary Telemetry Log,N/A (Contained in EV-01),Flight telemetry log matching EV-02.
+EV-05,DJI GO 4 Flight Telemetry Log,sdcard/DJI/dji.go.v4/FlightRecord/DJIFlightRecord_2018-06-19_[14-50-34].txt,Binary Telemetry Log,N/A (Contained in EV-01),Flight telemetry log matching EV-03.
