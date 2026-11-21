@@ -4,3 +4,12 @@ forensics/
 *.tar
 *.mp4
 forensics/
+
+# CIP-B107-Lab01 exclusions (keep credential-bearing scripts/notebooks out of Git)
+CIP-B107-Lab01/.venv/
+CIP-B107-Lab01/**/.venv/
+CIP-B107-Lab01/**/__pycache__/
+CIP-B107-Lab01/*.zip
+CIP-B107-Lab01/originals/**/*.py
+CIP-B107-Lab01/originals/**/*.PY
+CIP-B107-Lab01/originals/**/*.ipynb
