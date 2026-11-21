@@ -1,24 +1,18 @@
-forensics/
-**/evidence/
-*.zip
-*.tar
-*.mp4
-forensics/
-
-# CIP-B107-Lab01 exclusions (keep credential-bearing scripts/notebooks out of Git)
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 CIP-B107-Lab01/.venv/
 CIP-B107-Lab01/**/.venv/
 CIP-B107-Lab01/**/__pycache__/
 CIP-B107-Lab01/*.zip
-CIP-B107-Lab01/originals/**/*.py
-CIP-B107-Lab01/originals/**/*.PY
-CIP-B107-Lab01/originals/**/*.ipynb
 
-# CIP-B107-Lab01 exclusions (keep credential-bearing scripts/notebooks out of Git)
-CIP-B107-Lab01/.venv/
-CIP-B107-Lab01/**/.venv/
-CIP-B107-Lab01/**/__pycache__/
-CIP-B107-Lab01/*.zip
-CIP-B107-Lab01/originals/**/*.py
-CIP-B107-Lab01/originals/**/*.PY
-CIP-B107-Lab01/originals/**/*.ipynb
+# Exclude legacy files with embedded OpenAI API keys from Git push
+CIP-B107-Lab01/originals/IP_Identifier_Fine_Tuning/code/check_fine_tune_job_status.py
+CIP-B107-Lab01/originals/IP_Identifier_Fine_Tuning/code/compute_classification_metrics.ipynb
+CIP-B107-Lab01/originals/IP_Identifier_Fine_Tuning/code/create_fine_tune_job.py
+CIP-B107-Lab01/originals/IP_Identifier_Fine_Tuning/code/file_manager.ipynb
+CIP-B107-Lab01/originals/IP_Identifier_Fine_Tuning/code/predict_ip_single_line.py
+CIP-B107-Lab01/originals/IP_Identifier_Fine_Tuning/code/upload_dataset_train.py
+CIP-B107-Lab01/originals/IP_Identifier_Fine_Tuning/code/view_fine_tuning_steps.py
